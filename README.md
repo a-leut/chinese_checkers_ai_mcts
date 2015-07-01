@@ -24,5 +24,6 @@ You will need "GameMaster.jar" and a binary of "ChineseCheckersModerator." I hav
 ## Sources
 
 [Enhancements for Multi-Player Monte-Carlo Tree Search](http://bnaic2010.uni.lu/Papers/Category%20B/Nijssen.pdf)
+
 [UCT Enhancements in Chinese Checkers Using an Endgame Database](http://www.cs.du.edu/~sturtevant/papers/UCT-endgame.pdf)
 
