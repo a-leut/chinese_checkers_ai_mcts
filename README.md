@@ -14,12 +14,12 @@ I also changed the tree expansion and simulation playout policy. A node will onl
 
 You will need "GameMaster.jar" and a binary of "ChineseCheckersModerator." I have included GameMaster and an .exe of the moderator program, see [this repo](https://github.com/wtmitchell/tradgames) for source of both programs.
 
-1) Export runable jar of project
-2) Run GameMaster program
-3) Select jar of my program as Player1 or Player2
-4) Select "Human" for other player
-5) Select "ChineseCheckersModerator" program for moderator
-6) Begin game
+1. Export runable jar of project
+2. Run GameMaster program
+3. Select jar of my program as Player1 or Player2
+4. Select "Human" for other player
+5. Select "ChineseCheckersModerator" program for moderator
+6. Begin game
 
 ## Sources
 
