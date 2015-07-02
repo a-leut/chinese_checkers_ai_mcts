@@ -2,13 +2,12 @@
 
 ## About
 
-This program was for an ìAI for Traditional Gamesî class I took in spring 2015. After playing three rounds against all the other undergraduate programs, my final program tied for third based on overall win / losses.
- 
-I chose to use a Monte-Carlo Tree Search based agent with some modifications. I extended it to use a progressive best child selection function instead of UCB1:
- 
+This program was for an ‚ÄúAI for Traditional Games‚Äù class I took Spring 2015. I chose to use a Monte-Carlo Tree Search based agent with some modifications, and I was happy with the results. After playing three rounds against all the other undergraduate programs, my program tied for third based on overall win / losses.
+
+I used a selection function that is an extension of UCB1 with the addition of a progressive bias:
 ![alt text](http://i.imgur.com/aM78hN6.png "Logo Title Text 1")
 
-I also changed the tree expansion and simulation playout policy. A node will only now be expanded to the tree if it has already been visited 32 times and is a forward move across the board. During simulation, the program will only consider forward moves. See Prof. Nathan Sturtevantís paper for where I found this idea
+I also changed the tree expansion and simulation playout policy based on Prof. Sturtevant‚Äôs paper. A node will only be expanded if it has previously been reached 32 times and is a forward move across the board. During simulation, the program will only consider forward moves.
 
 ## Building / Running
 
