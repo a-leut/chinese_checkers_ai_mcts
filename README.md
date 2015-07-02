@@ -2,7 +2,7 @@
 
 ## About
 
-This program was for an “AI for Traditional Games” class I took Spring 2015. I chose to use a Monte-Carlo Tree Search based agent with some modifications, and I am proud of the final product. After playing three rounds against all the other undergraduate programs, my program tied for third based on overall win / losses.
+This program was for an “Artificial Intelligence (AI) for Traditional Games” class I took Spring 2015. I chose to use a Monte-Carlo Tree Search based agent with some modifications, and I am proud of the final product. After playing three rounds against all the other undergraduate programs, my program tied for third based on overall win / losses.
 
 I used a selection function that is an extension of UCB1 with the addition of a progressive bias:
 ![alt text](http://i.imgur.com/aM78hN6.png "Logo Title Text 1")
