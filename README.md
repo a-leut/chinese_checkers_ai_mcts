@@ -21,7 +21,7 @@ You will need "GameMaster.jar" and a binary of "ChineseCheckersModerator." I hav
 5. Select "ChineseCheckersModerator" program for moderator
 6. Begin game
 
-## Sources
+## References
 
 [Enhancements for Multi-Player Monte-Carlo Tree Search - J. (Pim) A. M. Nijssen and Mark H.M. Winands](http://bnaic2010.uni.lu/Papers/Category%20B/Nijssen.pdf)
 
