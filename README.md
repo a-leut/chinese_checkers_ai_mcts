@@ -2,7 +2,7 @@
 
 ## About
 
-This project was for an “Artificial Intelligence (AI) for Traditional Games” class I took in 2015. There was a tournament between the student programs at the end of the class and this program tied for third place based on overall wins / losses. I chose to use a [Monte-Carlo Tree Search](http://mcts.ai/about/index.html) based agent with modifications for Chinese Checkers to encourage good lines of play, influenced by techniques from two AI papers.
+This project was for the “Artificial Intelligence for Traditional Games” class I took in 2015. At the end of the class, there was a tournament between the student programs and this program tied for third place based on overall wins / losses. I chose to use a [Monte-Carlo Tree Search](http://mcts.ai/about/index.html) based agent with modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by techniques from two AI papers.
 
 From Nijssen's paper, I took a selection function that is an extension of UCB1 with the addition of a progressive bias:
 
