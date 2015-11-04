@@ -2,13 +2,13 @@
 
 ## About
 
-I chose to use a [Monte-Carlo Tree Search](http://mcts.ai/about/index.html) based agent with modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by techniques from two AI papers.
+I chose to use a [Monte-Carlo Tree Search](http://mcts.ai/about/index.html) based agent with domain specific modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by two artificial intelligence papers with similiar techniques. 
 
 From Nijssen's paper, I took a selection function that is an extension of UCB1 with the addition of a progressive bias:
 
 ![alt text](http://i.imgur.com/aM78hN6.png "Logo Title Text 1")
 
-I also changed the tree expansion and simulation playout policy based Sturtevant’s experience. Instead of expanding every node that is reached during selection, a node will only be expanded if it has previously been reached a fixed number times and is a forward move across the board. During simulation, the program will only consider forward moves.
+I also changed the tree expansion and simulation playout policy based Sturtevant’s experience. Instead of expanding every node that is reached during selection, a node will only be expanded if it has previously been reached a fixed number times and is a forward move across the board. During simulation the program will only consider forward moves.
 
 ## References
 
