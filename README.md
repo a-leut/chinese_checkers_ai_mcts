@@ -2,7 +2,7 @@
 
 ## About
 
-This is an artificial intelligence agent developed to play Chinese Checkers. It placed in third in a simulated tournament of fifteen other programs. It beats me every time, but I am also bad at this game.
+This is an artificial intelligence program designed to play Chinese Checkers. It placed in third in a simulated tournament of fifteen other programs. When I play it beats me every time. I am not very good at this game and I would be interested to know how it would do against a strong player.
 
 I chose to use a [Monte-Carlo Tree Search](http://mcts.ai/about/index.html) based agent with domain specific modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by two artificial intelligence papers with similiar techniques. 
 
