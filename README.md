@@ -6,7 +6,7 @@ This is an artificial intelligence program that plays Chinese Checkers. I think 
 
 I chose to use a [Monte-Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) based agent with domain specific modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by two AI papers that used similiar techniques. 
 
-I took a selection function that is an extension of UCB1  with the addition of a progressive bias from Nijssen's paper. Progressive bias introduces the idea of learned "good moves." These are more likely to be chosen over other moves as the game progresses as child nodes during selection.
+I took a selection function that is an extension of UCB1  with the addition of a progressive bias from Nijssen's paper. Progressive bias introduces the idea of learned "good moves." These are more likely to be chosen over other moves as the game progresses (as child nodes during selection.)
 
 I also changed the tree expansion and simulation playout policy based Sturtevant’s experience. Instead of expanding every node that is reached during selection, a node will only be expanded if it has previously been reached a fixed constant number of times *and* is a forward move across the board. During simulation the program will only consider forward moves.
 
