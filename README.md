@@ -2,7 +2,7 @@
 
 ## About
 
-This is an artificial intelligence program that plays Chinese Checkers. I think that my program, "PudgeBot," is a strong player and would beat the average human oppponent. It beats me every time when I play it. I'm bad at Chinese Checkers so I would be interested to know how it does against a strong player.
+This is an artificial intelligence program that plays Chinese Checkers. I think that my program, "PudgeBot," is a strong player and would beat the average human oppponent. I'm bad at Chinese Checkers so I would be interested to know how it does against a strong player.
 
 I chose to use a [Monte-Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) based agent with domain specific modifications for Chinese Checkers to encourage good lines of play. My approach was influenced by two AI papers that used similiar techniques. 
 
