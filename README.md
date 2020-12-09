@@ -18,7 +18,7 @@ The tree expansion and simulation playout policy is based Sturtevant’s paper. 
 
 ## Building / Running
 
-You will need "GameMaster.jar" and a binary of "ChineseCheckersModerator." I have included GameMaster.jar and a Windows executable of the moderator program. See [this repo](https://github.com/wtmitchell/tradgames) to build these programs from source.
+You will need "GameMaster.jar" and a binary of "ChineseCheckersModerator." I have included GameMaster.jar and a Windows executable of the moderator program. See [this repo](https://github.com/a-leut/tradgames) to build these programs from source.
 
 1. Export runable jar of project
 2. Run GameMaster program
